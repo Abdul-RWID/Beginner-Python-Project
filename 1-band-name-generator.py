@@ -1,5 +1,5 @@
 '''
-Debugging Practice
+Exercise 1 - Debugging Practice
 '''
 #Fix the code below 👇
 
@@ -8,32 +8,38 @@ print('String Concatenation is done with the "+" sign.')
 print('e.g. print("Hello " + "world")')
 print("New lines can be created with a backslash and n.")
 
+####################################
+
 '''
-Input Function
+Exercise 2 - Input Function
 '''
 #Write your code below this line 👇
 print(len(input('What is your name? ')))
 
+####################################
+
 '''
-Variables
+Exercise 3 - Variables
 '''
 # 🚨 Don't change the code below 👇
 a = input("a: ")
 b = input("b: ")
 # 🚨 Don't change the code above 👆
 
-####################################
+
 #Write your code below this line 👇
 c = a
 a = b
 b = c
 
 #Write your code above this line 👆
-####################################
+
 
 # 🚨 Don't change the code below 👇
 print("a: " + a)
 print("b: " + b)
+
+####################################
 
 '''
 Day 1 Project: Band Name Generator
