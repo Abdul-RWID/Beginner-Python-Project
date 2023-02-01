@@ -1,3 +1,5 @@
+# You're going to be learning about DATA TYPES, NUMBERS, TYPE CONVERSION, F-STRINGS
+
 '''
 Exercise 1 - Data Types
 '''
@@ -100,7 +102,7 @@ print(f'\nbill_per_person = total_bill / people = {bill_per_person}')
 final_amount = round(bill_per_person, 2)
 print(f'final_amount = round(bill_per_person, 2) = {final_amount}')
 final_amount = '{:.2f}'.format(bill_per_person)
-# print(f'final_amount = \'\{:.2f\}\'.format(bill_per_person)')
+# print(f"final_amount = '\{:.2f\}'.format(bill_per_person)")
 print(f'final_amount = round(bill_per_person, 2) = {final_amount}')
 
 

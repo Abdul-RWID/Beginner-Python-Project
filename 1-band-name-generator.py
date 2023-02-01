@@ -1,3 +1,5 @@
+# You're going to be learning about PRINTING, COMMENTING, STRING MANIPULATION, VARIABLES
+
 '''
 Exercise 1 - Debugging Practice
 '''
