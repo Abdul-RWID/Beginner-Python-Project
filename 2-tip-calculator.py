@@ -28,7 +28,7 @@ print(result)
 print(type(result))
 
 ####################################
-
+print('\n')
 '''
 Exercise 2 - BMI Calculator
 '''
@@ -57,7 +57,7 @@ print('{0} / {1} ** 2 = {2}'.format(str(weight), str(height), str(bmi_as_int)))
 print(bmi_as_int)
 
 ####################################
-
+print('\n')
 '''
 Exercise 3 - Life in Weeks
 '''
@@ -78,7 +78,7 @@ message = f"You have {days} days, {weeks} weeks, {months} months, and {years} ye
 print(message)
 
 ####################################
-
+print('\n')
 '''
 Day 2 Project: Tip Calculator
 '''

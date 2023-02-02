@@ -11,7 +11,7 @@ print('e.g. print("Hello " + "world")')
 print("New lines can be created with a backslash and n.")
 
 ####################################
-
+print('\n')
 '''
 Exercise 2 - Input Function
 '''
@@ -19,7 +19,7 @@ Exercise 2 - Input Function
 print(len(input('What is your name? ')))
 
 ####################################
-
+print('\n')
 '''
 Exercise 3 - Variables
 '''
@@ -42,7 +42,7 @@ print("a: " + a)
 print("b: " + b)
 
 ####################################
-
+print('\n')
 '''
 Day 1 Project: Band Name Generator
 '''

@@ -16,7 +16,7 @@ else:
   print("This is an odd number.")
 
 ####################################
-
+print('\n')
 '''
 Exercise 2 - BMI 2.0
 '''
@@ -40,7 +40,7 @@ else:
   print(f"Your BMI is {bmi}, you are clinically obese.")
 
 ####################################
-
+print('\n')
 '''
 Exercise 3 - Leap Year
 '''
@@ -62,7 +62,7 @@ else:
   print("Not leap year.")
 
 ####################################
-
+print('\n')
 '''
 Exercise 4 - Pizza Order Practice
 '''
@@ -111,7 +111,7 @@ print(f"Your final bill is: ${bill}.")
 print(f'Final bill is: ${bill_pizza} + ${bill_pepperoni} + ${bill_cheese} = ${bill}')
 
 ####################################
-
+print('\n')
 ####################################
 
 '''
@@ -149,7 +149,7 @@ else:
   print(f"Your score is {score}.")
 
 ####################################
-
+print('\n')
 '''
 Day 3 Project: Treasure Island
 '''
@@ -203,7 +203,7 @@ else:
   print("You fell into a hole. Game Over.")
 
 ####################################
-
+print('\n')
 '''
 Day 3 Project: Treasure Island (by MINE)
 '''
