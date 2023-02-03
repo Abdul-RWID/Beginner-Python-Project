@@ -1,11 +1,11 @@
 # You're going to be learning about PRINTING, COMMENTING, STRING MANIPULATION, VARIABLES
 
-print('Day 1 : You\'re going to be learning about PRINTING, COMMENTING, STRING MANIPULATION, VARIABLES')
-print('Type "1" for Exercise 1 - Debugging Practice')
-print('Type "2" for Exercise 2 - Input Function')
-print('Type "3" for Exercise 3 - Variables')
-print('Type "4" for Day 1 Project: Band Name Generator')
-choice = int(input('What is your choice ? \n'))
+def intro():
+    print('Day 1 : You\'re going to be learning about PRINTING, COMMENTING, STRING MANIPULATION, VARIABLES')
+    print('Type "1" for Exercise 1 - Debugging Practice')
+    print('Type "2" for Exercise 2 - Input Function')
+    print('Type "3" for Exercise 3 - Variables')
+    print('Type "4" for Day 1 Project: Band Name Generator')
 
 def exe1():
     '''
@@ -70,17 +70,18 @@ def day1():
 
     # Solution: https://replit.com/@appbrewery/band-name-generator-end
 
-####################################
+def program():
+    if choice == 1:
+        exe1()
+    elif choice == 2:
+        exe2()
+    elif choice == 3:
+        exe3()
+    elif choice == 4:
+        day1()
+    else:
+        print('You not type the selected choice, please "RUN" again.')
 
-####################################
-
-if choice == 1:
-    exe1()
-elif choice == 2:
-    exe2()
-elif choice == 3:
-    exe3()
-elif choice == 4:
-    day1()
-else:
-    print('You not type the selected choice, please "RUN" again.')
+intro()
+choice = int(input('What is your choice ? \n'))
+program()
