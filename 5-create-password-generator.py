@@ -28,7 +28,7 @@ average_height = round(total_height / number_of_students)
 print(f'average_height = {average_height}')
 
 ####################################
-print('\n')
+
 ####################################
 
 '''

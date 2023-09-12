@@ -82,6 +82,19 @@ def program():
     else:
         print('You not type the selected choice, please "RUN" again.')
 
+####################################
+
+####################################
 intro()
-choice = int(input('What is your choice ? \n'))
-program()
+# choice = int(input('What is your choice ? \n'))
+# program()
+
+should_end = False
+while not should_end:
+  choice = int(input('What is your choice ? ("1", "2", "3", "4")\n'))
+  program()
+
+  restart = input("Type 'yes' if you want to go again. Otherwise type 'no'.\n")
+  if restart == "no":
+    should_end = True
+    print("Goodbye")
